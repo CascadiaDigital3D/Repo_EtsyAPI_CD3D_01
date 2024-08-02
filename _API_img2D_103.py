@@ -5,8 +5,8 @@ import json
 from requests_oauthlib import OAuth1
 
 # Etsy API Configuration
-API_KEY = 'g075bclqi7x6rt59dng388vw'
-SHARED_SECRET = 'pf2ob9cnde'
+API_KEY = 'XXXXX'
+SHARED_SECRET = 'XXXX'
 oauth = OAuth1(API_KEY, client_secret=SHARED_SECRET)
 
 config = {
